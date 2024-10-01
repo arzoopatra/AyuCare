@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">AlzPal</string>
+    <string name="today_s_tip_has_already_been_shown" />
+    <string name="tip_title">Tip Title</string>
+    <string name="tip_content">Tip Content</string>
+    <string name="search">Search</string>
+    <string name="reminder">REMINDER</string>
+    <string name="tracker">TRACKER</string>
+    <string name="games">GAMES</string>
+    <string name="chat_pal">CHAT PAL</string>
+    <string name="songs">SONGS</string>
+    <string name="care_pal">CARE PAL</string>
+    <string name="welcome_to_alzpal">WELCOME TO ALZPAL</string>
+    <string name="navigate_your_daily_life_with_love_and_care">Navigate your Daily Life with Love and Care</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="new_user_register_here">New User ? Register Here</string>
+    <string name="update_user">Update User</string>
+    <string name="enter_name_here">Enter Name Here</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="quantity_0">Quantity : 0</string>
+    <string name="_10_45_pm">10:45 pm</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="view_location">View Location</string>
+    <string name="delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="add_new_user">Add New User</string>
+    <string name="paracetamol">Paracetamol</string>
+    <string name="quantity">Quantity :</string>
+    <string name="_10">10</string>
+    <string name="time">Time :</string>
+    <string name="select">SELECT</string>
+    <string name="repeat">Repeat:</string>
+    <string name="s">S</string>
+    <string name="m">M</string>
+    <string name="t">T</string>
+    <string name="w">W</string>
+    <string name="real_time_location_tracking">Real Time Location Tracking</string>
+    <string name="share_location">SHARE LOCATION</string>
+    <string name="saved_pills_reminder">Saved Pills Reminder</string>
+    <string name="previous">Previous</string>
+    <string name="saved_patients_location">SAVED PATIENTS LOCATION</string>
+    <string name="track_location">TRACK LOCATION</string>
+    <string name="please_take_the_medicines_on_time_navoid_snoozing_the_reminder">Please take the Medicines on Time\nAvoid Snoozing the Reminder</string>
+    <string name="snooze_alarm">Snooze Alarm</string>
+    <string name="took_medicine">Took Medicine</string>
+    <string name="settings">SETTINGS</string>
+    <string name="enable_notification">Enable Notification</string>
+    <string name="enable_dark_theme">Enable Dark Theme</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="register">Register</string>
+    <string name="already_have_and_account_log_in">Already have an Account ? Log In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_8_digit_password">Create 8-Digit Password</string>
+    <string name="enter_email_id">Enter Email Id</string>
+    <string name="no_notification">No Notification</string>
+    <string name="empty_users">Click (+) to Add User Name</string>
+    <string name="action_go">Go</string>
+    <string name="action_try">Start</string>
+
+    <!-- Menu strings -->
+    <string name="menu_summarize_title">FOR CAREGIVERS USE</string>
+    <string name="menu_summarize_description">for caregivers only</string>
+    <string name="menu_reason_title">Chat using image😃🖼️</string>
+    <string name="menu_reason_description">Add images and ask about them with ChatPal</string>
+    <string name="menu_chat_title">Chat 🤖 with ChatPal😊</string>
+    <string name="menu_chat_description">Start chatting with ChatPal</string>
+
+    <!-- Summarize sample strings -->
+    <string name="summarize_label">Text</string>
+    <string name="summarize_hint">Enter text to summarize</string>
+
+    <!-- Photo Reasoning sample strings -->
+    <string name="reason_label">Question</string>
+    <string name="reason_hint">Upload an image and then ask a question</string>
+    <string name="add_image">Add Image</string>
+
+    <!-- Chat sample strings -->
+    <string name="chat_label">Message</string>
+    <string name="action_send">Send</string>
+</resources>

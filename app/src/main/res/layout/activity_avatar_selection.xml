@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/register_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".dashboardactivity.memorygames.avatars.AvatarSelectionActivity">
+
+    <EditText
+        android:id="@+id/avatar_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:hint="@string/enter_your_name"
+        android:minHeight="48dp" />
+
+    <GridView
+        android:id="@+id/avatar_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/avatar_item_selector"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="@color/green"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/ivory"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_button"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    android:layout_margin="4dp"
+    android:background="@android:color/transparent"
+    android:contentDescription="@string/app_name"
+    android:scaleType="centerCrop" />

@@ -1,0 +1,175 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/alarm_background"
+    tools:context=".dashboardactivity.reminder.useractivity.AlarmActivity">
+
+     <LinearLayout
+        android:id="@+id/alarm_card"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="6dp"
+        android:gravity="center_horizontal">
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/cardView"
+             android:layout_width="130dp"
+             android:layout_height="130dp"
+             app:cardCornerRadius="65dp"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent"
+             app:layout_constraintVertical_bias="0.17000002">
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:src="@drawable/others"/>
+         </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/alarm_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignTop="@id/alarm_card"
+        android:layout_marginTop="170dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingHorizontal="20dp"
+        android:text="User Name"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/alarm_desc"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/alarm_user_name"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingHorizontal="20dp"
+        android:text="Please take the following Medicine"
+        android:textAlignment="gravity"
+        android:textColor="@color/magentapink"
+        android:textSize="18sp" />
+
+     <androidx.cardview.widget.CardView
+        android:id="@+id/med_card"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignTop="@id/alarm_desc"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/ivory"
+        app:cardElevation="0dp">
+
+         <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp">
+
+             <TextView
+                android:id="@+id/alarm_med_name"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Medicine Name"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.05" />
+
+             <TextView
+                android:id="@+id/alarm_med_quantity"
+                android:layout_width="146dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="68dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Qty : 0"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+             <TextView
+                android:id="@+id/alarm_med_time"
+                android:layout_width="146dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="68dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="10:45 PM"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+             <Button
+                 android:id="@+id/alarm_took"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="4dp"
+                 android:backgroundTint="@color/green"
+                 android:fontFamily="sans-serif-medium"
+                 android:text="@string/took_medicine"
+                 android:textAllCaps="false"
+                 android:textColor="@color/ivory"
+                 android:textColorLink="@color/magentapink"
+                 android:textSize="16sp"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintHorizontal_bias="0.082"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/alarm_med_time" />
+
+             <Button
+                 android:id="@+id/alarm_snooze"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="4dp"
+                 android:layout_marginEnd="12dp"
+                 android:backgroundTint="@color/magentapink"
+                 android:fontFamily="sans-serif-medium"
+                 android:text="@string/snooze_alarm"
+                 android:textAllCaps="false"
+                 android:textColor="@color/ivory"
+                 android:textSize="16sp"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/alarm_med_quantity" />
+         </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/med_card"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/please_take_the_medicines_on_time_navoid_snoozing_the_reminder"
+        android:textColor="@color/magentapink"
+        android:textSize="16sp" />
+
+</RelativeLayout>
